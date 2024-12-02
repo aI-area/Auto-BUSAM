@@ -1,6 +1,6 @@
 # Auto-BUSAM
 This repository contains the implementation of the following paper:
-> **Auto-BUSAM: Automatic Prompting for Breast Ultrasound Segmentation using SAM**<br>
+> **Auto-BUSAM: Low-contrast Breast Ultrasound Image Segmentation with Fine-tuned SAM and Auto Prompting**<br>
 
 ## Overview
 <img src="figures/overview.png" />  

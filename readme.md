@@ -10,6 +10,24 @@ This repository contains the implementation of the following paper:
 ## Compare with other methods
 <img src="figures\comparison.png" />  
 
+## 📦 Dependencies
+
+Install the required packages for PyTorch, SAM, Ultralytics (YOLOv8), and utilities. These support GPU acceleration and data handling.
+
+```bash
+# Install PyTorch (Adjust 'cu118' if you use a different CUDA version, e.g., cu121 for CUDA 12.1)
+pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu118](https://download.pytorch.org/whl/cu118)
+
+# Install Segment Anything Model (SAM)
+pip install git+[https://github.com/facebookresearch/segment-anything.git](https://github.com/facebookresearch/segment-anything.git)
+
+# Install Ultralytics for YOLOv8 prompt generation
+pip install ultralytics
+
+# Install general utilities and libraries
+pip install numpy opencv-python scikit-learn matplotlib tqdm types
+```
+
 
 ## Dataset
 
@@ -99,6 +117,7 @@ python main.py \
 
 ## Acknowledgement
 We appreciate the developers of [Segment Anything Model](https://github.com/facebookresearch/segment-anything) and [YOLO](https://github.com/ultralytics/ultralytics). The code of Auto-BUSAM is built upon [BLO-SAM](https://github.com/importZL/BLO-SAM/tree/master?tab=readme-ov-file) and [SAM LoRA](https://github.com/JamesQFreeman/Sam_LoRA), and we express our gratitude to these awesome projects.
+
 
 
 

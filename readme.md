@@ -1,6 +1,6 @@
 # Auto-BUSAM
 This repository contains the implementation of the following paper:
-> **Auto-BUSAM: Low-contrast Breast Ultrasound Image Segmentation with Fine-tuned SAM and Auto Prompting**<br>
+> **Auto-BUSAM: Auto-Segmentation of Attention-Diverted Low-Contrast Breast Ultrasound Images**<br>
 
 ## Overview
 <img src="figures/overview.png" />  
@@ -117,6 +117,7 @@ python main.py \
 
 ## Acknowledgement
 We appreciate the developers of [Segment Anything Model](https://github.com/facebookresearch/segment-anything) and [YOLO](https://github.com/ultralytics/ultralytics). The code of Auto-BUSAM is built upon [BLO-SAM](https://github.com/importZL/BLO-SAM/tree/master?tab=readme-ov-file) and [SAM LoRA](https://github.com/JamesQFreeman/Sam_LoRA), and we express our gratitude to these awesome projects.
+
 
 
 

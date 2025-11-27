@@ -9,6 +9,8 @@ This repository contains the implementation of the following paper:
 
 ## Compare with other methods
 <img src="figures\comparison.png" />  
+
+
 ## Dataset
 
 We use two datasets for training and evaluation:
@@ -96,4 +98,5 @@ python main.py \
 
 ## Acknowledgement
 We appreciate the developers of [Segment Anything Model](https://github.com/facebookresearch/segment-anything) and [YOLO](https://github.com/ultralytics/ultralytics). The code of Auto-BUSAM is built upon [BLO-SAM](https://github.com/importZL/BLO-SAM/tree/master?tab=readme-ov-file) and [SAM LoRA](https://github.com/JamesQFreeman/Sam_LoRA), and we express our gratitude to these awesome projects.
+
 
